@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,700&display=swap');
+body{
+
+  font-family: 'Montserrat', sans-serif;
+  background-color: #6C6E8C;
+  color: white;
+}
+
+.app{
+  max-width: 600px;
+  background-color: #8f9b9e;
+  border: 1px solid white;
+  padding: 20px;
+  width: 50%;
+  border-radius: 50px;
+  margin: auto;
+  box-shadow: 1px 5px 10px black;
+}
+
+.todo-category{
+  font-weight: bolder;
+}
+
+#criar-botao{
+  padding: 5px 10px;
+  font-size: 16pt;
+  background-color: #A67676;
+  border: 0;
+  color: white;
+
+
+
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 5px;
+
+}
+
+.todo{
+  border: 1px solid;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+input[type="text"], select{
+  background-color: rgba(240, 248, 255, 0);
+  border: 0;
+  color: white;
+  border-bottom: 2px solid black;
+  margin: 5px;
+
+
+}
+
+
+input::placeholder{
+  color: white;
+}
+option{
+  background-color: black;
+}
+
+#completar-botao{
+  color: white;
+  background-color: rgba(96, 191, 96, 0.662);
+  border: 0;
+  margin: 5px;
+  justify-content: end;
+  padding: 5px 10px;
+}
+
+#cancelar-botao{
+  color: white;
+  background-color: rgba(191, 96, 96, 0.662);
+  border: 0;
+  padding: 5px 10px;
+
+}
+#cancelar-botao:hover, #completar-botao:hover{
+  border-radius: 1px;
+cursor: pointer;
+}
+
+.button-div{
+  justify-content: end;
+  display: flex;
+  align-items: center;
+
+}
